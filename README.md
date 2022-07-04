@@ -11,9 +11,6 @@ This project basically covers database and server communication. You have to cli
 Basic Git knowledge such as git add, git commit, and git push from local machine to a remote repository on GitHub. 
 
 ## Technologies Used
--JavaScript
--HTML5
--CSS
--json
+JavaScript, HTML5, CSS, & json
 
 
