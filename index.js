@@ -100,6 +100,3 @@ function getBreeds(){
         )
       .catch( error => {throw error});
   }
-function myFunction(){
-  let comment = document.getElementById("userComment").value
-}
