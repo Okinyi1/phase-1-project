@@ -1,1 +1,65 @@
-
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Phase 1 Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="heading">
+      <div class="item">
+        <h2 class="ui header">
+          <div class="content">TOP FIVE CAT BREEDS</div>
+          <div class="sub header" id="subtitle">VIEW CAT BREEDS</div>
+        </h2>
+      </div>
+    </div>
+    <div class="ui centered grid">
+        <div class="four wide column">
+            <div class="list-container">
+                <!-- side menu -->
+                <ul class="ui divided list" id="breeds">
+                    <li class="breed item" style="color: forestgreen;">Cat breeds will appear here.</li>
+                </ul>
+            </div>
+        </div>
+      <!-- image -->
+      <div class="four wide column">
+        <img
+          id="image"
+          src="https://media.istockphoto.com/photos/tabby-cat-holding-blank-sign-picture-id503568727""
+          alt="[IMAGE]"
+        />
+      </div>
+      <!-- showing breed info -->
+      <div class="four wide column">
+          <div class="ui cards" id="showing">
+              <div class="card">
+                  <div class="title">Name: <span id="name">[CAT BREED]</span></div>
+                  <div class="title">Origin: <span id="origin">[ORIGIN]</span></div>
+                  <div class="title">Length: <span id="length">[CAT BREED]</span></div>
+                  <div class="single">Shedding: <span id="shedding">[SHEDDING]</span></div>
+                  <div class="single">Grooming: <span id="grooming">[GROOMING]</span></div>
+                  <div class="single">Intelligence: <span id="intelligence">[INTELLIGENCE]</span></div>
+                  <div class="friendly">Playfulness: <span id="playfulness">[PLAYFULNESS]</span></div>
+                  <div class="friendly">Family_friendly: <span id="family">[FAMILY-FRIENDLY]</span></div>
+                  <div class="friendly">Children_friendly: <span id="children">[CHILDREN-FRIENDLY]</span></div>
+                  <div class="friendly">Stranger_friendly: <span id="stranger">[STRANGER-FRIENDLY]</span></div>
+                  <div class="friendly">Other_pets_friendly: <span id="pets">[OTHER-PETS-FRIENDLY]</span></div>
+                  <div class="status">General-health: <span id="health">[GENERAL-HEALTH]</span></div>
+                  <div class="status">Min_weight: <span id="min-weight">[MIN-WEIGHT]</span></div>
+                  <div class="status">Max_weight: <span id="max-weight">[MAX-WEIGHT]</span></div>
+                  <div class="status">Min_life_expectancy: <span id="min-life-expectancy">[MIN-LIFE-EXPECTANCY]</span></div>
+                  <div class="status">Max_life_expectancy: <span id="max-life-expectancy">[MAX-LIFE-EXPECTANCY]</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
